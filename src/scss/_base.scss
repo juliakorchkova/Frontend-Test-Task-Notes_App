@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap');
+
+@import './variables';
+
+@import './NotesList.scss';
+@import './Note.scss';
+@import './FilterBar.scss';
+
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", "Roboto", sans-serif;
+    line-height: 150%;
+}
+
+button {
+    padding: 0.8em 4em;
+    margin: 10px;
+    background-color: $c-light-blue;
+    border: none;
+    border-radius: 25px;
+    font-size: 14px;
+
+    &:hover {
+        background-color: $c-shadow-light-blue;
+        -webkit-transition: background-color 400ms linear;
+        -ms-transition: background-color 400ms linear;
+        transition: background-color 400ms linear;
+    }
+}

@@ -1,0 +1,14 @@
+.filterBar {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+
+    input {
+        width: 20em;
+    }
+
+    .icon-button {
+        margin:  0 10px;
+    }
+}

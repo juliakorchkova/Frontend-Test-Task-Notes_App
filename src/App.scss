@@ -1,0 +1,29 @@
+@import './scss/base';
+
+:root {
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: $c-white;
+  width: 100vw;
+  font-weight: 400;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px;
+
+  textarea {
+    width: 30%;
+  }
+
+  button {
+    font-size: 12px;
+  }
+}
+
+.icon-button:hover {
+  opacity: 0.7;
+  transition: opacity 300ms ease-out;
+}

@@ -1,0 +1,51 @@
+@import './variables';
+
+.noteCard {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: $c-white;
+    color: $c-black;
+    border-radius: 20px;
+
+    textarea {
+        width: 100%;
+    }
+
+    .menuIcon {
+        align-self: flex-end;
+    }
+
+    .noteTags { 
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+
+        span {
+        font-weight: 700;
+        font-size: 15px;
+        margin: 5px;
+        padding-left: 10px;
+        background-color: $c-light-gray;
+        border-radius: 25px;
+
+            button {
+                padding: 5px;
+                margin: 0;
+                background: transparent;
+
+                &:hover {
+                    opacity: 0.5;
+                    transition: opacity 200ms ease-in;
+                }
+
+                .tagIcon {
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}
